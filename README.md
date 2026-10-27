@@ -69,15 +69,16 @@ Correlation and variable importance
 
 The table below summarizes the correlations with the outcome and the variable-importance values reported for the full and pruned decision trees.
 
-Variable| Correlation with outcome| Full tree importance| Pruned tree importance
-Glucose| 0.516| 54.5| 51.1
-Age| 0.351| 64.7| 41.9
-Insulin| 0.301| 34.4| 25.0
-BMI| 0.270| 41.5| 28.3
-Pregnancies| 0.257| 31.6| 21.2
-Skin thickness| 0.256| 19.4| 11.7
-Family history| 0.209| 19.1| 2.9
-Blood pressure| 0.193| 10.2| 0.0
+| Variable | Correlation with outcome | Full tree importance | Pruned tree importance |
+|---|---:|---:|---:|
+| Glucose | 0.516 | 54.5 | 51.1 |
+| Age | 0.351 | 64.7 | 41.9 |
+| Insulin | 0.301 | 34.4 | 25.0 |
+| BMI | 0.270 | 41.5 | 28.3 |
+| Pregnancies | 0.257 | 31.6 | 21.2 |
+| Skin thickness | 0.256 | 19.4 | 11.7 |
+| Family history | 0.209 | 19.1 | 2.9 |
+| Blood pressure | 0.193 | 10.2 | 0.0 |
 
 Glucose showed the strongest linear association with the outcome. Age ranked second in correlation but had the highest importance in the full decision tree. These results are not contradictory: correlation and decision-tree importance measure different relationships.
 
